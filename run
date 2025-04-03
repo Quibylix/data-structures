@@ -1,0 +1,5 @@
+#! /bin/bash -e
+
+g++ -O2 -o main "$1"
+chmod +x main
+./main "${@:2}"
